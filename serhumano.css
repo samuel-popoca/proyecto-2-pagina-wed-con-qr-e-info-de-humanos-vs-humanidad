@@ -1,0 +1,106 @@
+/* humanidad.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.pagina-contenido {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Encabezados */
+header h1 {
+  font-size: 2.5rem;
+  color: #1e3a8a; /* azul oscuro */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  background-color: #2d2d2d;
+  border-left: 6px solid #1e3a8a;
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #1e40af; /* azul intermedio */
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-info {
+  text-decoration: none;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #000;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .pagina-contenido {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 10px 15px;
+  }
+}
+
+/* Fondo general de la página (detrás del cuadro) */
+body {
+  background-color: #000000; /* negro */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Opcional: si quieres que el texto del cuadro se vea claro */
+.pagina-contenido {
+  background-color: #1a1a1a; /* fondo del cuadro, gris oscuro */
+  color: #f0f0f0; /* texto dentro del cuadro */
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+}
