@@ -78,6 +78,20 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
+
+
+.imagen {
+  text-align: center; /* centra el contenido horizontalmente */
+}
+
+.qr {
+  display: block;     /* para que se comporte como bloque debajo de la imagen */
+  margin: 10px auto 0 auto; /* espacio arriba y centrado */
+  width: 80px;        /* tamaño proporcional */
+  height: auto;       /* mantiene proporción */
+}
+
+
 /* Similitudes */
 .similitud {
   margin-bottom: 20px;
@@ -422,7 +436,21 @@ h1 {
     padding: 10px 20px;
   }
 }
+  
 
+.qr-y-boton {
+  display: flex;           /* pone QR y botón en fila */
+  align-items: center;     /* centra verticalmente */
+  justify-content: center; /* centra todo horizontalmente */
+  gap: 20px;               /* espacio entre QR y botón */
+  margin-top: 10px;        /* separación del texto de reflexión */
+}
 
+.qr {
+  width: 60px;             /* tamaño más pequeño */
+  height: auto;            /* mantiene proporción */
+}
 
-
+.boton-info {
+  text-align: left;        /* texto alineado a la izquierda */
+}
